@@ -1,0 +1,10 @@
+{
+  "name": "slow-nodejs-build-test",
+  "version": "1.0.0",
+  "description": "Node.js project whose build runs ~60s and prints progress at intervals, for testing build-log streaming in the wizard.",
+  "main": "index.js",
+  "scripts": {
+    "build": "node build.js",
+    "start": "node index.js"
+  }
+}
